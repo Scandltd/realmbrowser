@@ -1,4 +1,4 @@
-<h1>Realm Browser for Android<img class="gif" alt="Realm Browser" src="http://scand.com/products/realmbrowser/images/realm-32.gif" /></h1>
+<h1>Realm Browser for Android</h1>
 <h2>Introduction</h2>
 <p>Realm Browser Library is a small, but very helpful library designed for viewing and editing Realm database files on Android devices. Mobile developers using the Realm in their applications are able to view stored data faster and easier, and debug modules that work with the database. The library also provides the ability to generate data automatically.
 Nowadays the official Realm browser is only available for Mac OS X users. Moreover, it is necessary to copy the database file from user’s device to a PC. Using Realm Browser Library developers have an access to stored data directly in the program without having to copy the data file.</p>
