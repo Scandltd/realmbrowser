@@ -1,0 +1,26 @@
+<resources>
+    <string name="realm_browser_notification_title">Realm Browser</string>
+    <string name="realm_browser_notification_text">Show database</string>
+    <string name="realm_browser_realm_file_notification" formatted="false">Class %s is located in %s file.</string>
+    <string name="realm_browser_realm_class_notification" formatted="false">Add class %s to RealmBrowser.Builder.</string>
+    <string name="realm_browser_ok">Ok</string>
+    <string name="realm_browser_cancel">Cancel</string>
+    <string name="realm_browser_select_all">Select All</string>
+    <string name="realm_browser_deselect_all">Deselect All</string>
+    <string name="realm_browser_true_string">True</string>
+    <string name="realm_browser_false_string">False</string>
+    <string name="realm_browser_value_edit_error" formatted="false">Value %s can not be parsed as %s</string>
+    <string name="realm_browser_btn_fill_title">Fill data</string>
+    <string name="realm_browser_menu_search_title">Search through database</string>
+    <string name="realm_browser_search_hint_short">fieldName:value</string>
+    <string name="realm_browser_search_hint_long"><b>Search usage notes:</b>\n Now RealmBrowser doesn\'t support searching
+        through <i>byte[]</i>, <i>Date</i>, <i>RealmObject</i> and <i>RealmList</i> field types.\n\n
+        To search through other field types use the following request format:\n
+        <b><i>fieldName:value</i></b>.\nSearch over <b>String</b> type fields uses <i>contains()</i>
+        function (search is case sensitive), for other types function <i>equals()</i> is used.
+    </string>
+    <string name="realm_browser_menu_filter_title">Filter</string>
+    <string name="realm_browser_field_filter_dialog_title">Select fields to display</string>
+    <string name="realm_browser_reset_to_null">Reset to <b>NULL</b></string>
+    <string name="realm_browser_byte_array_is_null">Byte array is <b>NULL</b></string>
+</resources>

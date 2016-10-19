@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!--Content layout-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F00">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/realm_browser_toolbar"/>
+
+        <fragment
+            android:id="@+id/table_fragment"
+            android:name="com.scand.realmbrowser.DbTableFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"/>
+    </RelativeLayout>
+
+    <!--Drawer layout-->
+    <fragment
+        android:id="@+id/drawer_fragment"
+        android:name="com.scand.realmbrowser.DbConfigBrowserFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"/>
+</android.support.v4.widget.DrawerLayout>

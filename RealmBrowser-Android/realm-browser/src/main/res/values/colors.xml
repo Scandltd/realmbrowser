@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="realm_browser_colorPrimary">#212121</color>
+    <color name="realm_browser_colorPrimaryDark">#000</color>
+    <color name="realm_browser_colorAccent">#009688</color>
+    <color name="realm_browser_secondary">#b8d8e6</color>
+    <color name="realm_browser_default_bg">#FFFFFF</color>
+
+    <color name="realm_browser_lt_gray">#E2E2E2</color>
+    <color name="realm_browser_dark_gray">#a9a9a9</color>
+
+    <color name="realm_browser_dummy_divider_color">#800000FF</color>
+    <color name="realm_browser_divider_color">@color/realm_browser_dark_gray</color>
+    <color name="realm_browser_database_column_title_background_color">@color/realm_browser_dark_gray</color>
+    <color name="realm_browser_change_column_width_overlay_color">#80000000</color>
+
+    <color name="realm_browser_edit_dialog_error_color">#F00</color>
+
+    <color name="realm_browser_notification_color">#f0727d</color>
+
+    <color name="realm_browser_db_config_primary_text_color">#000</color>
+    <color name="realm_browser_db_table_primary_text_color">#000</color>
+
+</resources>

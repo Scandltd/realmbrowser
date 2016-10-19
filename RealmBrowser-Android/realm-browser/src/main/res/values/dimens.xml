@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="realm_browser_activity_horizontal_margin">16dp</dimen>
+    <dimen name="realm_browser_activity_vertical_margin">16dp</dimen>
+
+    <dimen name="realm_browser_class_list_padding_left">12dp</dimen>
+    <dimen name="realm_browser_class_list_padding_right">16dp</dimen>
+    <dimen name="realm_browser_class_list_header_padding_top">24dp</dimen>
+    <dimen name="realm_browser_class_list_header_padding_bottom">24dp</dimen>
+    <dimen name="realm_browser_class_list_button_height">48dp</dimen>
+    <dimen name="realm_browser_class_list_button_text_size">18sp</dimen>
+    <dimen name="realm_browser_class_list_item_padding_top">12dp</dimen>
+    <dimen name="realm_browser_class_list_item_padding_bottom">12dp</dimen>
+    <dimen name="realm_browser_class_list_item_text_size">18sp</dimen>
+    <dimen name="realm_browser_class_list_item_drawable_padding">32dp</dimen>
+
+    <dimen name="realm_browser_database_breadcrumb_height">48dp</dimen>
+    <dimen name="realm_browser_database_breadcrumb_padding_left">20dp</dimen>
+
+    <dimen name="realm_browser_database_list_item_padding_top_bottom">4dp</dimen>
+    <dimen name="realm_browser_database_list_item_left">28dp</dimen>
+    <dimen name="realm_browser_database_list_item_row_number_margin_left">4dp</dimen>
+    <dimen name="realm_browser_database_list_item_min_height">48dp</dimen>
+
+    <dimen name="realm_browser_min_column_width">180dp</dimen>
+
+    <dimen name="realm_browser_edit_dialog_padding">4dp</dimen>
+</resources>

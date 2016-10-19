@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/realm_browser_database_list_item_min_height"
+    android:orientation="horizontal">
+
+    <com.scand.realmbrowser.view.RowView
+        android:id="@+id/db_class_list_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/realm_browser_database_list_item_padding_top_bottom"
+        android:paddingLeft="@dimen/realm_browser_database_list_item_left"
+        android:paddingStart="@dimen/realm_browser_database_list_item_left"
+        android:paddingTop="@dimen/realm_browser_database_list_item_padding_top_bottom" />
+
+    <TextView
+        android:id="@+id/db_class_list_row_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/realm_browser_database_list_item_row_number_margin_left"
+        android:layout_marginStart="@dimen/realm_browser_database_list_item_row_number_margin_left"
+        android:background="@drawable/realm_browser_row_number_background"
+        android:textColor="@android:color/white"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

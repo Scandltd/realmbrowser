@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Ignore the InvalidPackage issue in the given files -->
+    <issue id="InvalidPackage">
+        <ignore regexp="java.applet.*"/>
+        <ignore regexp="java.awt.*"/>
+        <ignore regexp="javax.swing.*"/>
+        <ignore regexp="javax.tools.*"/>
+        <ignore regexp="javax.xml.bind.*"/>
+    </issue>
+
+    <issue id="NewApi">
+        <ignore regexp="paddingStart"/>
+    </issue>
+</lint>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <com.scand.realmbrowser.breadcrumbs.BreadCrumbsView
+            android:id="@+id/crumbs_list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/realm_browser_database_breadcrumb_height"
+            android:layout_gravity="start|center_vertical"
+            android:background="@color/realm_browser_colorPrimary"
+            android:overScrollMode="never"
+            android:paddingLeft="@dimen/realm_browser_database_breadcrumb_padding_left"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/realm_browser_divider_horizontal"/>
+
+        <com.scand.realmbrowser.view.RowView
+            android:id="@+id/table_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/realm_browser_database_list_item_left"/>
+
+        <com.scand.realmbrowser.view.RowView
+            android:id="@+id/table_header_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/realm_browser_database_list_item_left"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/realm_browser_divider_horizontal"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/databaseList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:overScrollMode="never"/>
+
+        <RelativeLayout
+            android:id="@+id/invalid_request_hint_group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/invalid_request_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/realm_browser_search_hint_long"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.scand.realmbrowser.view.DragOverlayView
+        android:id="@+id/drag_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:background="@color/realm_browser_change_column_width_overlay_color"/>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/realm_browser_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/realm_browser_colorPrimaryDark</item>
+        <item name="colorAccent">@color/realm_browser_colorAccent</item>
+    </style>
+
+</resources>

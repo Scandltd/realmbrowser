@@ -1,0 +1,15 @@
+<manifest package="com.scand.realmbrowser"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity
+            android:name=".BrowserActivity"
+            android:theme="@style/realm_browser_RealmBrowserTheme"/>
+
+        <service
+            android:name=".RealmBrowserService"
+            android:exported="false"/>
+    </application>
+</manifest>
